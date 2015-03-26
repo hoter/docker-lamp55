@@ -3,7 +3,7 @@ LAMP: Ubuntu 14.04, Apache, PHP5.5, MySQL
 
 Docker containers should store only persistent data. So, mutable data (mysql database and apache vhost) were carried over to the host system.
 
-Please use following commands:
+# Please use following commands:
 cd /<path_to_container_folder>
 
 sudo docker build --tag=<your_username>/lamp .
